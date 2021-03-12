@@ -4,9 +4,8 @@ namespace App\Http\Livewire;
 
 use Livewire\Component;
 
-class Polls extends Component
+class Create extends Component
 {
-
     public $data;
 
     public function __construct($data)
@@ -16,6 +15,6 @@ class Polls extends Component
 
     public function render()
     {
-        return view('livewire.polls');
+        return view('livewire.create');
     }
 }
